@@ -1,0 +1,33 @@
+{
+  "name": "adalo-pinch-pan-zoom",
+  "description": "A pinch/pan/zoom component for Adalo images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Steven McKeown",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "Adalo Pinch Pan Zoom",
+    "components": [
+      {
+        "name": "PinchPanZoomImage",
+        "manifest": "./src/components/PinchPanZoomImage/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.44",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "react-native-image-pan-zoom": "^2.1.12"
+  }
+}

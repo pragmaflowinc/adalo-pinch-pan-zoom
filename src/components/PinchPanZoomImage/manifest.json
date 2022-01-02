@@ -1,0 +1,16 @@
+{
+  "displayName": "Pinch Pan Zoom Image",
+  "defaultWidth": 160,
+  "defaultHeight": 160,
+  "resizeX": true,
+  "resizeY": true,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "image",
+      "displayName": "Image",
+      "type": "image"
+    }
+  ]
+}
